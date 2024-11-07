@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esempio di Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .card-title {
+            font-weight: bold;
+            margin: 16px 0;
+        }
+
+        .card-content {
+            padding: 16px;
+            background-color: #f9f9f9;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 16px 0;
+        }
+
+        .card-items {
+            margin: 8px 0;
+            text-align: left;
+        }
+
+        .card-link {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        .link-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 16px;
+        }
+    </style>
+    </-->
+</head>
+
+<body>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Image Cap">
+        <div class="card-content">
+            <div class="card-title">Titolo della Card</div>
+            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="divider"></div>
+            <div class="card-items">
+                <p>Un item</p>
+                <p>Un secondo item</p>
+                <p>Un terzo item</p>
+            </div>
+            <div class="divider"></div>
+            <div class="link-container">
+                <a href="#" class="card-link">card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
